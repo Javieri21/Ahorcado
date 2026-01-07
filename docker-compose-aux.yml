@@ -19,13 +19,12 @@ services:
     image: python:3.11-slim
     build: .
     volumes:
-      - ./palabras.txt:/app/palabras.txt
       - ./:/app
       - ./requirements.txt:/app/requirements.txt
     env_file:
       - .env
     command: >
-      sh -c "pip install -r requirements.txt && python ahorcado.py palabras.txt"
+      sh -c "pip install -r requirements.txt && python ahorcado.py"
     depends_on:
       db:
         condition: service_healthy

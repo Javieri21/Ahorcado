@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY ahorcado.py .
 COPY palabras.txt .
-COPY requirements.txt .
 
 ENTRYPOINT ["python", "ahorcado.py", "palabras.txt"]
 

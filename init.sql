@@ -6,3 +6,4 @@ CREATE TABLE IF NOT EXISTS intento_ahorcado (
     intentos INTEGER,
     tiempo TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+

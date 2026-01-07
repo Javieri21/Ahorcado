@@ -1,7 +1,6 @@
 import sys
 import psycopg
 import os
-import kafka
 
 def main():
     # Conexión a la base de datos
@@ -52,8 +51,8 @@ def main():
     cur.execute("SELECT id, palabra, letras_acertadas, letras_falladas, intentos, tiempo FROM intento_ahorcado ORDER BY id ASC LIMIT 100")
     resultados = cur.fetchall()
     
-    for fila in resultados:
-        print(f"Palabra: {fila[1]} | Acertadas: {fila[2]} | Falladas: {fila[3]} | Intentos: {fila[4]} | Tiempo: {fila[5]}")
+    for row in resultados:
+        print(f"Palabra: {row[1]} | Acertadas: {row[2]} | Falladas: {row[3]} | Intentos: {row[4]} | Tiempo: {row[5]}")
     
     # Cerrar conexión
     cur.close()
