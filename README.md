@@ -1,6 +1,6 @@
 # Ahorcado
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-slim?style=for-the-badge&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Optimized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-Lightweight-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 

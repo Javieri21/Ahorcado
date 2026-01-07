@@ -1,4 +1,3 @@
-import sys
 import psycopg
 import os
 import requests
