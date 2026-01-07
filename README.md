@@ -6,4 +6,3 @@
 
 > **Proyecto realizado como entregable en EDEM**
 Desarrollo, automatización, almacenaje y optimización del mítico juego del ahorcado en lenguaje Python con ampliación de conexión con la API de la RAE (Real Academia Española de la lengua).
-
